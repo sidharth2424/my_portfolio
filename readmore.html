@@ -1,0 +1,90 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Read More</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    color: #f1f0f0;
+    text-align: center;
+  }
+  p {
+    line-height: 1.6;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #000000;
+  }
+  
+
+  .featured-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    animation: zoomIn 1s ease-out; /* Zoom-in animation */
+  }
+  .featured-image:hover {
+    transform: scale(1.05);
+  }
+  @keyframes zoomIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    /* Adjust other styles as needed */
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Read More</h1>
+  <img src="./assets/readmore.jpg" alt="Read More Image" class="featured-image">
+  <p>I am Sidharth M, a 3rd-year computer science engineering student at NIT Calicut, currently maintaining a CGPA of 7.5. Initially, I had limited technical knowledge, but my interest in coding, sparked during my higher secondary education, drove me to pursue computer science. I began exploring various fields, starting with web development, where I learned HTML, CSS, and frameworks like Bootstrap. As a creative individual with skills in video editing and Photoshop, I initially thought my career would be in web or app development. However, my analytical skills and passion for gathering information, especially about topics of interest like Manchester United, led me to realize that data science aligns perfectly with my strengths and interests. I am eager to delve into data science and plan to work on 2 to 3 projects by my final year</p>
+  <!-- <p>Curabitur aliquam quam quis tristique bibendum. Quisque consequat aliquet augue, non ultrices nunc eleifend at. Fusce lobortis, nisi non tincidunt lacinia, odio nisi faucibus urna, non placerat leo metus a mi. Proin non nisl id augue tempor mollis et eget augue. Proin non odio purus. Nulla facilisi. Fusce congue risus at est dignissim, id volutpat libero ultrices. Curabitur ac urna et odio bibendum lobortis. Aenean blandit ut dolor ac efficitur. Donec gravida molestie arcu vel varius. Aenean eu risus ut mi molestie placerat.</p> -->
+  <a href="./index.html" class="button">Back to Portfolio</a>
+</div>
+</body>
+</html>
